@@ -2,6 +2,7 @@ import wollok.game.*
 import example.*
 program TestGame {
 	game.title("Juego de Prueba")
+	game.ground("red.png")
 	keyboard.c().onPressDo({chubut.moveRight()})
 	game.addVisual(chubut)
 	game.height(10)
