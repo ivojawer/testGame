@@ -2,11 +2,8 @@ import wollok.game.*
 import example.*
 program TestGame {
 	
-	keyboard.c().onPressDo({wollok.moveRight()})
-//	game.whenKeyPressedDo(keyboard.a(),{
-//		wollok.moveRight()
-//	})
-	game.addVisual(wollok)
+	keyboard.c().onPressDo({chubut.moveRight()})
+	game.addVisual(chubut)
 	game.height(10)
 	game.width(10)
 	game.start()

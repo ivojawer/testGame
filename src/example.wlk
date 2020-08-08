@@ -1,7 +1,7 @@
 import wollok.game.*
 
 /** First Wollok example */
-object wollok {
+object chubut {
 	var position = game.at(2,2)
 	method position() = position
 	
